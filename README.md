@@ -1,2 +1,4 @@
 # Elevate-Labs
-My journey as a cybersecurity intern in the ELEVATE-LABS.
+My journey as a cybersecurity intern at ELEVATE-LABS.
+---
+
