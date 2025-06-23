@@ -46,4 +46,7 @@
  - Layers(1-4) are transport layers,Layers(5-7) are Apllication Layers
 > [[source]](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/)
 
- 
+ ### CIDR Notation
+ - CIDR stands for Classless Inter-Domain Routing. It represents IP addresses along with their subnet mask using a slash `/` format.
+ - `/24` represents 256 addresses, and this defines the subnet clearly as `255.255.255.0`
+ - Essential for routing and firewall rules, network planning, and recon tools like Nmap
