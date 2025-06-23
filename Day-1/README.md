@@ -1,6 +1,7 @@
 # Basic Network Reconnaissance with Nmap
-This project walks through a simple network reconnaissance exercise using Nmap to identify active devices and open ports within a local network.
-> Made an automated python script for nmap automation : [Github Link](https://github.com/SHIROIreaper/nmap-automation)
+## Objective
+Learn to discover open ports on devices in your local network to understand network exposure.
+> Made an automated Python script for nmap automation : [Github Link](https://github.com/SHIROIreaper/nmap-automation)
 ---
 ## Requirements
 - Nmap (can be downloaded using [this link](https://nmap.org/download))
