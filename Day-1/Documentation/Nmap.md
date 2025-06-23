@@ -1,0 +1,13 @@
+# USEFUL NMAP COMMANDS
+- -p-           → Scan all 65535 TCP ports
+- -sV           → Probe open ports to determine service/version info
+- -sU           → Perform UDP scan
+- -sS           → Stealthy TCP SYN scan
+- -PE           → ICMP Echo Request (ping) probe for host discovery
+- -PP           → ICMP Timestamp Request probe
+- -PM           → ICMP Address Mask Request probe
+- -sn           → Host discovery only (no port scan)
+- --script vuln → Run all NSE vulnerability detection scripts
+- -T(1-4)       → Timing template (1 = slow, 4 = aggressive)
+- -F            → Fast scan using Nmap's top 100 ports
+- -A            → Enable OS detection, version detection, script scan, and traceroute
