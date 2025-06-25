@@ -1,0 +1,24 @@
+
+Received: from mail.fake-notification.com (203.0.113.55) by smtp.example.com with ESMTP id abc456;
+    Mon, 24 Jun 2025 08:20:00 +0530
+Reply-To: <paypal-alerts-center@consultant.com>
+From: "PayPal Security" <service@paypal.com>
+To: victim@example.com
+Subject: Urgent Notice: Suspicious Activity Detected in Your Account
+Date: Mon, 24 Jun 2025 08:19:58 +0530
+Message-ID: <DEF456@mail.fake-notification.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+Dear Customer,
+
+We noticed suspicious login attempts on your PayPal account from an unknown device.  
+As a security measure, we have temporarily limited access to your account.
+
+Please verify your identity immediately by visiting the secure link below:
+<a href="http://paypal.login-security-alerts.com/verify">Click here to verify your account</a>
+
+Failure to confirm your identity within 24 hours will result in permanent suspension of your PayPal account.
+
+Thank you for your cooperation,  
+PayPal Security Team
