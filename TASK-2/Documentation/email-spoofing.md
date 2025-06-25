@@ -40,7 +40,7 @@ A technique in which attackers falsify metadata—like the `From`, `Reply-To`, o
 - The SMTP protocol has **no built‑in authentication**, so headers can easily be forged.  
 - Many domains still lack **SPF**, **DKIM**, and/or **DMARC** protection.  
 - Recipients often **trust display names** and don’t verify full email addresses.  
-[[Roots of SMTP spoofing]](https://www.wired.com/2012/01/google-microsoft-yahoo-paypal-go-after-phishers-with-new-email-authentication-effort)
+[[source]](https://tealtech.com/blog/why-phishing-scams-remain-effective/)
 
 ---
 
@@ -52,7 +52,7 @@ A technique in which attackers falsify metadata—like the `From`, `Reply-To`, o
 3. **Monitor and block homograph/look‑alike domains** proactively.  
 4. **Deploy filtering and anomaly detection tools** to flag unusual emails.  
 5. **Raise user awareness** about social engineering and header inspection.  
-[[source]](https://www.proofpoint.com/us/blog/email-and-cloud-threats/prevent-email-spoofing-with-dmarc)
+[[source]](https://abnormal.ai/glossary/email-spoofing)
 
 ---
 
