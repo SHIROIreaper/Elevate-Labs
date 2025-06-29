@@ -29,14 +29,8 @@ Nessus Essentials was successfully installed and a local scan was executed. Key 
 - Exploring possible remediations or workarounds  
 
 Refer to the following subdirectories for evidence and references:  
-- 📂 [Scan Configuration & Execution](./screenshost/config/)  
-- 📂 [Generated Report screenshots](./screenshots/vuln/)  
-- 📂 [Critical Findings & Notes](./Reports/)
+-  [Scan Configuration & Execution](./screenshots/config/)  
+-  [Generated Report screenshots](./screenshots/vuln/)  
+-  [Critical Findings & Notes](./Reports/)
 
 This exercise emphasized the value of periodic scanning, patch management, and baseline hardening for local systems.
-
-## Related Resources  
-
-- [Nessus Setup Guide](https://docs.tenable.com/nessus/Content/InstallNessus.htm)  
-- [Nessus Essentials Product Page](https://www.tenable.com/products/nessus/nessus-essentials)  
-- [Example Nessus Report Screenshot](https://assets.tenable.com/prod-images/Nessus/Nessus-Vulnerability-Report.png)
