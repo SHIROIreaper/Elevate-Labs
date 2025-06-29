@@ -53,13 +53,12 @@ sudo pacman -S gnu-netcat
 - Refer [this link](https://nmap.org/ncat/) for more information.
 
 ###  Setup Listener on One Device (Server Side)
-
-``` nc -l -p 23
-
+```
+ nc -l -p 23
 ```
 ### Connect From the Second Device
-
-``` nc <IP-of-listener> 23
+```
+ nc <IP-of-listener> 23
 
 ```
 
