@@ -1,3 +1,4 @@
+
 # Nessus
 
 ## Purpose  
@@ -9,6 +10,27 @@ Nessus is a widely used vulnerability assessment tool developed by Tenable. Its 
 - Help in proactive risk management and remediation  
 
 By scanning target machines, Nessus enables organizations to mitigate vulnerabilities before they can be exploited by attackers.
+
+## Setup  
+
+1. **Download Nessus Essentials** from the [official Tenable website](https://www.tenable.com/products/nessus/nessus-essentials)  
+2. **Install the package** using your OS's package manager. For Debian-based systems:  
+   ```bash
+   sudo dpkg -i Nessus-*.deb
+   sudo apt-get install -f
+   ```  
+3. **Start the Nessus service**:  
+   ```bash
+   sudo systemctl start nessusd
+   ```  
+4. **Access the Web Interface**:  
+   Open your browser and go to:  
+   ```
+   https://localhost:8834
+   ```  
+5. **Register Nessus** with the activation code emailed to you  
+6. **Wait for plugins to compile and update** (this may take several minutes)  
+7. **Login and create a scan** from the dashboard interface
 
 ## Type of Scan  
 Nessus supports a variety of scan types tailored to different environments and needs:
