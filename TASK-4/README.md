@@ -17,7 +17,7 @@ Configure and test basic firewall rules to allow or block traffic.
 
 - ✅ [Established a communication channel between devices](./Screenshots/port_communication.png) using port 23 (Telnet) and then to port 22 (ssh).
 - ✅ [Configured firewall rules](./Screenshots/rules_set.png) to allow/block specific ports.
-- ✅ [Verified blocked traffic results](./Screenshots/attacker_or_incoming_connection.jpeg) in **silent failure** (no “connection denied” message), consistent with packet dropping behavior.
+- ✅ [Verified blocked traffic results](./Screenshots/attacker_side/) in **silent failure** (no “connection denied” message), consistent with packet dropping behavior.
 - ✅ Gained hands-on experience with port-level control and basic networking tools.
 
 ---
