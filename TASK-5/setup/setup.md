@@ -17,5 +17,5 @@ wireshark &
 ## 3. Generating Traffic 
 - `ping site@domain` for public servers (example: google.com).
 - Or just navigate through a web page from the browser.
-- For the sake of a demo, let it capture for around 1 minute.
+- Let Wireshark capture for around 1 minute.
 ---
