@@ -29,10 +29,10 @@ The packet capture has been completed and exported. Analysis focused on common p
 - **ICMP**
 
 Key findings, filters used, and observed traffic patterns are documented in:
-- [results/summary.md](./results/summary.md)
-- [results/wireshark-traffic.pcap](./results/wireshark-traffic.pcap)
+- [results/summary.md](./Result/summary.md)
+- [results/wireshark-traffic.pcap](./Result/Files)
 
-This directory also contains insights into protocol behaviors and timestamps aligned with test activities.
+This directory also contains insights into protocol behaviors aligned with test activities.
 
 ---
 
