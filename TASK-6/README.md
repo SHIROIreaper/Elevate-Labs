@@ -14,7 +14,7 @@ Understand what makes a password strong and test it against password strength to
 
 ---
 
-## Tools Required
+## Tools Used in cracking **password hashes**
 
 To conduct password strength analysis and perform cracking operations, the following tools are commonly used:
 
@@ -23,18 +23,18 @@ To conduct password strength analysis and perform cracking operations, the follo
 - **Hydra**: Network login cracker for attacking services over protocols such as SSH, FTP, etc. (less relevant for offline hash cracking)
 - **Hash Generators**: For converting plaintext passwords into hash formats (e.g., `md5sum`, `openssl`, Python scripts)
 
-> For this analysis, [**John the Ripper**](./Documentation/JohnTheRipper.md) was selected due to its support for custom wordlists, ease of use, and compatibility with various hash formats including MD5 and SHA variants.
+- For this analysis, [**John the Ripper**](./Documentation/JohnTheRipper.md) was selected due to its support for custom wordlists, ease of use, and compatibility with various hash formats including MD5 and SHA variants.
 
-> Hash generation was performed using command-line utilities (`md5sum`) and shell scripts, and the resulting hashes were passed to John for cracking against curated wordlists.
+>  Hash generation was performed using command-line utilities (`md5sum`) and shell scripts, and the resulting hashes were passed to John for cracking against curated wordlists.
 
 ---
 
 ## Results / Findings
 
 - Various passwords were analysed and the results showed:
- - **Simple passwords** were cracked almost instantly using dictionary attacks.
- - **Medium-strength passwords** showed moderate resistance, but many still succumbed when variations (symbol substitutions, dates) were included in the wordlist.
- - **Complex passwords**, particularly those using regional and emotional entropy, resisted cracking attempts, highlighting the value of unpredictable character combinations.
+ - [**Simple passwords**](./Wordlists/plaintext/plaintext-simple.txt) were cracked almost instantly using dictionary attacks.
+ - [**Medium-strength passwords**](./Wordlists/plaintext/plaintext-medium.txt) showed moderate resistance, but many still succumbed when variations (symbol substitutions, dates) were included in the wordlist.
+ - [**Complex passwords**](./Wordlists/plaintext/plaintext-complex.txt), particularly those using regional and emotional entropy, resisted cracking attempts, highlighting the value of unpredictable character combinations.
  - The test demonstrated how attackers could exploit weak password patterns using public or slightly modified dictionaries.
 
 The project underscores the need for robust password creation habits and proactive auditing practices using available open-source tools.
